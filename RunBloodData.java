@@ -10,7 +10,7 @@ public static void main(String[] args) {
 	System.out.print("Enter the Rhesus Factor (+ or -): ");
 	String input2 = sc.nextLine();	
 	
-	if(input1.isEmpty()){
+	if(input1.isEmpty()&&input2.isEmpty()){
 	BloodData bd1 = new BloodData();
 	bd1.display();
 	}
